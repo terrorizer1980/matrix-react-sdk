@@ -6045,6 +6045,7 @@ mathml-tag-names@^2.1.3:
     browser-request "^0.3.3"
     bs58 "^4.0.1"
     content-type "^1.0.4"
+    eslint-plugin-import "^2.25.2"
     loglevel "^1.7.1"
     p-retry "^4.5.0"
     qs "^6.9.6"
@@ -6928,12 +6929,13 @@ postcss@^8.3.11:
     picocolors "^1.0.0"
     source-map-js "^1.0.1"
 
-posthog-js@1.12.2:
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.12.2.tgz#ff76e26634067e003f8af7df654d7ea0e647d946"
-  integrity sha512-I0d6c+Yu2f91PFidz65AIkkqZM219EY9Z1wlbTkW5Zqfq5oXqogBMKS8BaDBOrMc46LjLX7IH67ytCcBFRo1uw==
+posthog-js@1.57.2:
+  version "1.57.2"
+  resolved "https://registry.yarnpkg.com/posthog-js/-/posthog-js-1.57.2.tgz#131fb93e2ad099baff4317f3d91a4d6c96a08e7f"
+  integrity sha512-ER4gkYZasrd2Zwmt/yLeZ5G/nZJ6tpaYBCpx3CvocDx+3F16WdawJlYMT0IyLKHXDniC5+AsjzFd6fi8uyYlJA==
   dependencies:
     fflate "^0.4.1"
+    rrweb-snapshot "^1.1.14"
 
 potpack@^1.0.1:
   version "1.0.2"
@@ -7537,6 +7539,11 @@ rrweb-snapshot@1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/rrweb-snapshot/-/rrweb-snapshot-1.1.7.tgz#92a3b47b1112a1b566c2fae2edb02fa48a6f6653"
   integrity sha512-+f2kCCvIQ1hbEeCWnV7mPVPDEdWEExqwcYqMd/r1nfK52QE7qU52jefUOyTe85Vy67rZGqWnfK/B25e/OTSgYg==
+
+rrweb-snapshot@^1.1.14:
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/rrweb-snapshot/-/rrweb-snapshot-1.1.14.tgz#9d4d9be54a28a893373428ee4393ec7e5bd83fcc"
+  integrity sha512-eP5pirNjP5+GewQfcOQY4uBiDnpqxNRc65yKPW0eSoU1XamDfc4M8oqpXGMyUyvLyxFDB0q0+DChuxxiU2FXBQ==
 
 rst-selector-parser@^2.2.3:
   version "2.2.3"
